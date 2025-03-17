@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
 const ProfileSection = () => {
@@ -13,10 +12,11 @@ const ProfileSection = () => {
               <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-1/3 bg-gradient-to-br from-researcher-primary to-researcher-accent p-8 flex items-center justify-center">
                   <div className="relative">
-                    <Avatar className="w-48 h-48 border-4 border-white shadow-lg">
-                      <AvatarImage src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" alt="Researcher" />
-                      <AvatarFallback className="text-4xl">AR</AvatarFallback>
-                    </Avatar>
+                    <img 
+                      src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
+                      alt="Researcher" 
+                      className="w-full max-w-xs shadow-lg border-2 border-white"
+                    />
                   </div>
                 </div>
                 <div className="w-full md:w-2/3 p-8">
