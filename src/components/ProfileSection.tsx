@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
+import { Github, Twitter, Linkedin, GraduationCap, Mail } from 'lucide-react';
 
 const ProfileSection = () => {
   return (
@@ -32,13 +33,62 @@ const ProfileSection = () => {
                     </p>
                   </div>
                   
-                  <div>
+                  <div className="mb-6">
                     <h4 className="font-semibold text-lg mb-2">Contact Information</h4>
                     <ul className="text-gray-700 space-y-1">
                       <li>Email: jane.smith@airesearch.org</li>
                       <li>Office: AI Research Building, Room 305</li>
                       <li>Phone: (123) 456-7890</li>
                     </ul>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold text-lg mb-2">Connect With Me</h4>
+                    <div className="flex space-x-4 mt-2">
+                      <a 
+                        href="https://github.com/janesmith" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-researcher-primary hover:text-researcher-secondary transition-colors"
+                      >
+                        <Github className="h-5 w-5" />
+                        <span className="sr-only">GitHub</span>
+                      </a>
+                      <a 
+                        href="https://twitter.com/janesmith" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-researcher-primary hover:text-researcher-secondary transition-colors"
+                      >
+                        <Twitter className="h-5 w-5" />
+                        <span className="sr-only">Twitter</span>
+                      </a>
+                      <a 
+                        href="https://linkedin.com/in/janesmith" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-researcher-primary hover:text-researcher-secondary transition-colors"
+                      >
+                        <Linkedin className="h-5 w-5" />
+                        <span className="sr-only">LinkedIn</span>
+                      </a>
+                      <a 
+                        href="https://scholar.google.com/citations?user=janesmith" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-researcher-primary hover:text-researcher-secondary transition-colors"
+                      >
+                        <GraduationCap className="h-5 w-5" />
+                        <span className="sr-only">Google Scholar</span>
+                      </a>
+                      <a 
+                        href="mailto:jane.smith@airesearch.org" 
+                        className="text-researcher-primary hover:text-researcher-secondary transition-colors"
+                      >
+                        <Mail className="h-5 w-5" />
+                        <span className="sr-only">Email</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
