@@ -10,12 +10,12 @@ const ProfileSection = () => {
           <Card className="border-none shadow-lg overflow-hidden">
             <CardContent className="p-0">
               <div className="flex flex-col md:flex-row">
-                <div className="w-full md:w-1/3 bg-gradient-to-br from-researcher-primary to-researcher-accent p-8 flex items-center justify-center">
+                <div className="w-full md:w-1/3 bg-white p-8 flex items-center justify-center">
                   <div className="relative">
                     <img 
                       src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7" 
                       alt="Researcher" 
-                      className="w-full max-w-xs shadow-lg border-2 border-white"
+                      className="w-full max-w-xs shadow-lg"
                     />
                   </div>
                 </div>

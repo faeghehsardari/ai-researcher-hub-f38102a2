@@ -63,13 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom AI researcher theme colors
+				// Custom AI researcher theme colors - changed to navy
 				researcher: {
-					'primary': '#8B5CF6', // Vivid Purple
-					'secondary': '#D6BCFA', // Light Purple
-					'dark': '#1A1F2C', // Dark Purple
-					'accent': '#0EA5E9', // Ocean Blue
-					'muted': '#F1F0FB', // Soft Gray
+					'primary': '#0C2D48', // Navy Blue
+					'secondary': '#145DA0', // Medium Blue
+					'dark': '#1D3557', // Dark Navy
+					'accent': '#2E5984', // Steel Blue
+					'muted': '#F0F4F8', // Light Blue Gray
 				},
 			},
 			borderRadius: {
